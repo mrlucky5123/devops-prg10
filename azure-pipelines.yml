@@ -16,7 +16,7 @@ stages:
     - task: CmdLine@2
       displayName: 'Build and Run Unit Tests'
       inputs:
-        script: mvn clean test
+        script: mvn clean test 
 
     - task: PublishTestResults@2
       inputs:
