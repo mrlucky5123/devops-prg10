@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world I'm lokesh Kumar Sharma!
+- script: echo Hello, world I'm lokesh Kumar Sharma! I'm in cse department
   displayName: 'Run a one-line script'
 
 - script: |
